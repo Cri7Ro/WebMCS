@@ -1,0 +1,62 @@
+.header-container {
+	width: 1440px;
+	height: 200px;
+	background-color: #E5E000;
+}
+
+.heading-text {
+	font-family: 'Helvetica';
+	line-height: 200px;
+	font-size: 50px;
+	color: white;
+}
+
+.paragraph-text {
+	font-family: 'Helvetica';
+	font-size: 50px;
+	color: black;
+}
+
+.links {
+	width: 1440px;
+	height: 100px;
+	text-transform: uppercase;
+	background-color: #E5E000;
+	line-height: 100px;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: white;
+}
+
+a {
+	color: white;
+}
+
+.footer-container {
+	width: 1440px;
+	height: 200px;
+	background-color: #E5E000;
+}
+
+.footer-content-text {
+	font-family: 'Helvetica';
+	line-height: 25px;
+	font-size: 50px;
+	color: white;
+	text-align: right;
+}
+
+h2 {
+	font-size: 50px;
+}
+
+.body-content {
+	width: 1440px;
+	height: 2027px;
+	border-style: hidden;
+}
+
+
+
