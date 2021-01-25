@@ -1,14 +1,27 @@
-.header-container {
+.body-content {
 	width: 1440px;
+	border-style: hidden;
+	margin: auto;
+}
+
+.main-content {
+	font-size: 0;
+}
+
+.header-container {
 	height: 200px;
 	background-color: #E5E000;
 }
 
 .heading-text {
 	font-family: 'Helvetica';
-	line-height: 200px;
 	font-size: 50px;
 	color: white;
+	display: inline-block; 
+	margin-top: 80px;
+	margin-right: 890px;
+	margin-bottom: 80px;
+	margin-left: 80px;
 }
 
 .paragraph-text {
@@ -17,17 +30,23 @@
 	color: black;
 }
 
-.links {
+.links-container {
 	width: 1440px;
 	height: 100px;
-	text-transform: uppercase;
 	background-color: #E5E000;
-	line-height: 100px;
+}
+
+.links {
+	text-transform: uppercase;	
 	font-family: Helvetica;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 25px;
 	color: white;
+	display: inline-block;  
+	margin-top: 36px;
+	margin-bottom: 35px;
+	margin-left: 80px;
 }
 
 a {
@@ -35,7 +54,6 @@ a {
 }
 
 .footer-container {
-	width: 1440px;
 	height: 200px;
 	background-color: #E5E000;
 }
@@ -46,6 +64,18 @@ a {
 	font-size: 50px;
 	color: white;
 	text-align: right;
+	display: inline-block;
+	margin-top: 70px;
+	margin-right: 80px;
+	margin-bottom: 66px;
+}
+
+.footer-content-image {
+	display: inline-block;
+	margin-top: 77px;
+	margin-left: 80px;
+	margin-bottom: 77px;
+	margin-right: 461px;
 }
 
 h2 {
@@ -53,11 +83,8 @@ h2 {
 	font-weight: bold;
 }
 
-.body-content {
-	width: 1440px;
-	height: 2027px;
-	border-style: hidden;
-}
+
+
 
 
 
