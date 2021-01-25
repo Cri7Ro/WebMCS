@@ -1,7 +1,11 @@
 @import url(reset.css);
 
-.header-container {
+.main-container {
 	width: 1440px;
+	margin: auto;
+}
+
+.header-container {
 	height: 60px;
 	background-color: #FE1A19;
 	font-family: Helvetica;
@@ -10,11 +14,12 @@
 	font-size: 20px;
 	line-height: 23px;
 	color: #FFFFFF;
-	display: inline-block;
 }
 
 .heading-text {
-	margin: 20px 600px 20px 20px;
+	display: inline-block;
+
+	margin: 20px 600px 20px 20px;	
 }
 
 .main-container {
@@ -67,13 +72,13 @@ h2 {
 	box-sizing: border-box;
 	border: 5px solid #E5E000;
 	border-radius: 30px;
-	margin-right: 70px;
+	
 }
 
 .footer-container {
-	width: 1440px;
 	height: 60px;
 	background-color: #FE1A19;
+	position: relative;
 }
 
 .footer-text {
@@ -89,6 +94,7 @@ h2 {
 	margin-bottom: 20px;
 }
 
+
 a {
 	font-family: Helvetica;
 	font-style: normal;
@@ -96,12 +102,9 @@ a {
 	font-size: 20px;
 	line-height: 23px;
 	color: #FFFFFF;
-	margin-left: 20px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	margin-left: 1100px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	position: absolute;
+	right: 0;
+	bottom: 20px;
 }
 
 .section-text {
