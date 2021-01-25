@@ -1,0 +1,109 @@
+@import url(reset.css);
+
+.header-container {
+	width: 1440px;
+	height: 60px;
+	background-color: #FE1A19;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	color: #FFFFFF;
+	display: inline-block;
+}
+
+.heading-text {
+	margin: 20px 600px 20px 20px;
+}
+
+.main-container {
+	height: 800px;
+	margin-top: 52px;
+	margin-bottom: 52px;
+}
+
+h2 {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+}
+
+.paragraph-text {
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+}
+
+.first-section {
+	width: 400px;
+	height: 800px;
+	box-sizing: border-box; 
+	display: inline-block;
+	border: 5px solid #E5E000;
+	border-radius: 30px;
+	margin-left: 70px;
+	margin-right: 50px;
+}
+
+.second-section {
+	width: 400px;
+	height: 800px;
+	display: inline-block;
+	box-sizing: border-box;
+	border: 5px solid #E5E000;
+	border-radius: 30px;
+	margin-right: 50px;
+}
+
+.third-section {
+	width: 400px;
+	height: 800px;
+	display: inline-block;
+	box-sizing: border-box;
+	border: 5px solid #E5E000;
+	border-radius: 30px;
+	margin-right: 70px;
+}
+
+.footer-container {
+	width: 1440px;
+	height: 60px;
+	background-color: #FE1A19;
+}
+
+.footer-text {
+	display: inline-block;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	color: #FFFFFF;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+a {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	color: #FFFFFF;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 1100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.section-text {
+	padding: 33px 33px 33px 33px;
+}
