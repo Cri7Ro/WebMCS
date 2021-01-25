@@ -13,14 +13,14 @@
 
 .heading-text {
 	display: inline-block;
-
 	margin: 20px 600px 20px 20px;	
 }
 
 .main-container {
-	width: 1440px;
+	width: 1300px;
 	height: 800px;
 	margin: 52px auto;
+	font-size: 0;
 }
 
 h2 {
@@ -46,8 +46,6 @@ h2 {
 	display: inline-block;
 	border: 5px solid #E5E000;
 	border-radius: 30px;
-	margin-left: 70px;
-	margin-right: 50px;
 }
 
 .second-section {
@@ -58,6 +56,7 @@ h2 {
 	border: 5px solid #E5E000;
 	border-radius: 30px;
 	margin-right: 50px;
+	margin-left: 50px;
 }
 
 .third-section {
@@ -67,7 +66,6 @@ h2 {
 	box-sizing: border-box;
 	border: 5px solid #E5E000;
 	border-radius: 30px;
-	
 }
 
 .footer-container {
@@ -89,7 +87,6 @@ h2 {
 	margin-bottom: 20px;
 }
 
-
 a {
 	font-family: Helvetica;
 	font-style: normal;
@@ -104,4 +101,26 @@ a {
 
 .section-text {
 	padding: 33px 33px 33px 33px;
+}
+
+.ingridients {
+	width: 314px;
+	margin-bottom: 25px;
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+}
+
+.ingridients-topping {
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+}
+
+.dish {
+	margin-bottom: 41px;
 }
