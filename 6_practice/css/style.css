@@ -1,0 +1,159 @@
+.header-container {
+	width: 100%;
+	height: 140px;
+	display: flex;
+	align-items: center;
+	background-color: white;
+	justify-content: space-between;
+	position: fixed;
+}
+
+.heading-text {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 57px;
+	color: #E50043;
+}
+
+.menu a {
+	margin-right: 25px;
+	font-family: Arial;
+	font-size: 50px;
+	line-height: 57px;
+	color: #E50043;
+}
+
+.main-container {
+	height: 3079px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.image-conteiner {
+	width: 100%;
+	height: 950px;
+	background-image: url(../img/evian_origins_logo.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	display: flex;
+}
+
+.image-conteiner h1 {
+	margin: auto;
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100px;
+	line-height: 115px;
+	color: #E50043;
+}
+
+.text-content {
+	width: 1040px;
+	height: 280px;
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+	letter-spacing: 0.05em;
+	color: #000000;
+	border: 3px solid #F8BFC7;
+	box-sizing: border-box;
+	border-radius: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.our-water {
+	width: 992px;
+	height: 232px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.image {
+	width: 1037px;
+	height: 963px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+
+.image-wang {
+	width: 281px;
+	height: 863px;
+	background-image: url(../img/wang.png);
+}
+
+.image-blue {
+	width: 281px;
+	height: 863px;
+	background-image: url(../img/blue.png);
+}
+
+.image-chiara {
+	width: 281px;
+	height: 863px;
+	background-image: url(../img/chiara.png);
+}
+
+.image-text {
+	width: 1037px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.caption {
+	width: 249px;
+	height: 58px;
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+	text-align: center;
+	color: #000000;
+}
+
+.image-glass {
+	width: 101px;
+	height: 220px;
+	background-image: url(../img/glass.png);
+}
+
+.composition {
+	width: 749px;
+	height: 220px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.footer-container {
+	height: 140px;
+	background: #F8BFC7;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-text {
+	font-family: Arial;
+	font-size: 50px;
+	line-height: 57px;
+	color: #FFFFFF;
+}
+
+.back-main {
+	font-family: Arial;
+	font-size: 50px;
+	line-height: 57px;
+	color: #FFFFFF;
+}
+
+
