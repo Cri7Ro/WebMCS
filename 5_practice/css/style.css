@@ -1,7 +1,6 @@
 @import url(reset.css);
 
 .header-container {
-	height: 60px;
 	background-color: #FE1A19;
 	font-family: Helvetica;
 	font-style: normal;
@@ -18,7 +17,6 @@
 
 .main-container {
 	width: 1300px;
-	height: 800px;
 	margin: 52px auto;
 	font-size: 0;
 }
@@ -41,7 +39,6 @@ h2 {
 
 .first-section {
 	width: 400px;
-	height: 800px;
 	box-sizing: border-box; 
 	display: inline-block;
 	border: 5px solid #E5E000;
@@ -50,7 +47,6 @@ h2 {
 
 .second-section {
 	width: 400px;
-	height: 800px;
 	display: inline-block;
 	box-sizing: border-box;
 	border: 5px solid #E5E000;
@@ -61,7 +57,6 @@ h2 {
 
 .third-section {
 	width: 400px;
-	height: 800px;
 	display: inline-block;
 	box-sizing: border-box;
 	border: 5px solid #E5E000;
@@ -69,7 +64,6 @@ h2 {
 }
 
 .footer-container {
-	height: 60px;
 	background-color: #FE1A19;
 	position: relative;
 }
