@@ -16,7 +16,8 @@
 	font-size: 50px;
 	line-height: 57px;
 	color: #E50043;
-	margin-left: 50px;
+	padding: 50px;
+	
 }
 
 .links-style a {
@@ -26,7 +27,6 @@
 	line-height: 57px;
 	color: #E50043;
 	margin-right: 50px;
-	
 }
 
 .links-style li {
@@ -37,6 +37,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding-top: 100px;
 }
  
 .image-conteiner {
@@ -59,7 +60,6 @@
 
 .text-content {
 	width: 1040px;
-	height: 280px;
 	font-family: Arial;
 	font-size: 25px;
 	line-height: 29px;
@@ -69,27 +69,23 @@
 	box-sizing: border-box;
 	border-radius: 20px;
 	display: flex;
-	justify-content: space-around;
 	align-items: center;
+	justify-content: space-around;
 	margin-top: 150px;
 	margin-bottom: 150px;
 }
 
 .our-water {
-	width: 992px;
-	height: 232px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	margin: 24px;
 }
 
 .image {
 	width: 1037px;
-	height: 963px;
 	display: flex;
 	justify-content: space-between;
-	flex-wrap: wrap;
-	align-content: space-between;
 }
 
 .image-wang {
@@ -115,6 +111,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-top: 42px; 
 }
 
 .caption {
@@ -135,10 +132,11 @@
 
 .composition {
 	width: 749px;
-	height: 220px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .footer-container {
@@ -162,6 +160,14 @@
 	line-height: 57px;
 	color: #FFFFFF;
 	margin-right: 50px;
+}
+
+.our-water h2{
+	margin-bottom: 25px;
+}
+
+.composition h2, ul{
+	margin-bottom: 25px;
 }
 
 
