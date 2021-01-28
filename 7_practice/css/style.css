@@ -2,6 +2,14 @@
 
 @keyframes rotate {
 	/*задайте ваш keyframe здесь*/
+	from {
+		top: 50%;
+		left: 50%;
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
 }
 .page {
   /* эти единицы измерения мы изучим чуть позже */
@@ -32,4 +40,7 @@
 	margin-top: -200px;
 	margin-left: -200px;
 	/* вызовите вашу анимацию здесь */
+
+	animation: rotate 5s infinite;
+	
 }
