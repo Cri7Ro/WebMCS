@@ -18,6 +18,7 @@
 	background-image: url(https://raw.githubusercontent.com/matthewbryancurtis/aframe-star-system-component/HEAD/screenshot.png);
 	display: flex;
 	position: relative;
+
 }
 .sun {
 	width: 300px;
@@ -40,5 +41,17 @@
 	margin-top: -200px;
 	margin-left: -200px;
 	/* вызовите вашу анимацию здесь */
-	animation: rotate 5s infinite;
+	animation: rotate 5s linear infinite;
+}
+
+.footer-container {
+	width: 100%;
+	background-image: url(https://raw.githubusercontent.com/matthewbryancurtis/aframe-star-system-component/HEAD/screenshot.png);
+}
+
+.footer-container a {
+	font-family: Arial;
+	font-size: 50px;
+	line-height: 57px;
+	color: #FFFFFF;
 }

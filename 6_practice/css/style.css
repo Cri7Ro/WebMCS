@@ -7,7 +7,7 @@
 	background-color: white;
 	justify-content: space-between;
 	position: fixed;
-	padding: 50px;
+	
 }
 
 .heading-text {
@@ -17,6 +17,7 @@
 	font-size: 50px;
 	line-height: 57px;
 	color: #E50043;
+	padding: 50px;
 }
 
 .links-style a {
@@ -25,6 +26,7 @@
 	font-size: 50px;
 	line-height: 57px;
 	color: #E50043;
+	text-decoration: none;
 }
 
 .links-style li {
@@ -35,7 +37,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-top: 100px;
+	padding-top: 157px;
 }
  
 .image-conteiner {
@@ -162,8 +164,13 @@
 	margin-bottom: 25px;
 }
 
-.composition h2, ul{
+.composition h2 {
 	margin-bottom: 25px;
 }
+
+.composition ul {
+	margin-bottom: 25px;
+}
+
 
 
