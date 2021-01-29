@@ -1,0 +1,116 @@
+@import url(reset.css);
+
+.header-container {
+	width: 100%;
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 57px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000000;
+	background-color: #FFE138;
+}
+
+.header-text {
+	padding-top: 52px;
+	padding-bottom: 51px;
+}
+
+.main-content {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 25px;
+	color: #000000;
+	margin-top: 70px;
+	word-wrap: break-word;
+}
+
+.first-column {
+	width: calc((100% - 240px)/3);
+	margin-left: 70px;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+}
+
+.second-column {
+	width: calc((100% - 240px)/3);
+	border: 1px solid #000000;
+	box-sizing: border-box;
+}
+
+.third-column {
+	width: calc((100% - 240px)/3);
+	margin-right: 70px;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+}
+
+.meta-side-table {
+	padding-bottom: 150%;
+	background-image: url(../img/Meta_Side_Table.png);
+	background-size: cover;
+}
+
+.click-shelf {
+	padding-bottom: 150%;
+	background-image: url(../img/Click_Shelf.png);
+	background-size: cover;
+}
+
+.float-shelf {
+	padding-bottom: 150%;
+	background-image: url(../img/Float_Shelf.png);
+	background-size: cover;
+}
+
+p {
+	margin: 30px 33px;
+}
+
+h2 {
+	margin-top: 30px;
+	margin-left: 33px;
+}
+
+.footer-container {
+	width: 100%;
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 57px;
+	align-items: center;
+	text-transform: uppercase;
+	color: #000000;
+	background-color: #FFE138;
+	margin-top: 70px;
+	display: flex;
+}
+
+.footer-text {
+	flex-grow: 1;
+	padding-top: 52px;
+	padding-bottom: 51px;
+	padding-left: 50px;
+}
+
+.footer-container a{
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 57px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000000;
+	background-color: #FFE138;
+	padding-right: 50px;
+}
