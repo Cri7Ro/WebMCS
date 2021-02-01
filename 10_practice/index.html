@@ -6,22 +6,47 @@
 	<meta description="Boilerplate code">
 	<meta keyword="Boilerplate, test">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div>
-		<header>
-			<div>
-			</div>
-			<nav></nav>
+	<div class="page">
+		<header class="header-container">
+			<nav class="menu">
+				<ul>
+					<li><a href="#">посылки</a></li>
+					<li><a href="#">упоковка</a></li>
+					<li><a href="#">подписка</a></li>
+				</ul>
+			</nav>
+			<a href="#">меню</a>
 		</header>
-		<main>
-			<section></section>
-			<section></section>
+		<main class="main-container">
+			<div class="main-content">
+				<section class="send-form">
+					<form action="">
+						<fieldset class="send">
+							<label for="name">Имя</label>
+							<input type="text" name="name" placeholder="Имя">
+							<label for="city">Город</label>
+							<input type="text" name="city" placeholder="Москва">
+							<label for="present">Подарок</label>
+							<input type="text" name="present" placeholder="книга">
+							<label for="e-mail">Электронная почта</label>
+							<input type="e-mail" name="e-mail" placeholder="12345@gmail.com">
+						</fieldset>
+						<input type="submit">
+					</form>
+				</section>
+				<section class="text">
+					<h1>ваша посылка уже в пути!</h1>
+				</section>
+			</div>
 		</main>
-		<footer>
-			<div></div>
+		<footer class="footer-container">
+			<div class="footer-text">
+				<h2>секретные посылки для друзей</h2>
+			</div>
+			<a href="../index.html">на главную</a>
 		</footer>
 	</div>
 </body>
