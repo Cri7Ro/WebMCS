@@ -29,8 +29,7 @@
 	color: #000000;
 	word-wrap: break-word;
 	align-items: center;
-	margin-top: 102px;
-	margin-bottom: 102px;
+	margin-top: 40px;
 }
 
 .first-column {
@@ -103,10 +102,6 @@
 	}
 
 	.paragraph-text {
-		text-align: center;
-		border: 5px solid #000000;
-		box-sizing: border-box;
-		padding: 30px;
 		margin-bottom: 20px; 
 	}
 }
