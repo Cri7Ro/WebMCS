@@ -19,40 +19,27 @@
 
 .main-content {
 	width: 100%;
-	display: flex;
-	flex-direction: column;
-	font-family: Times New Roman;
+	font-family: Helvetica;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 20px;
-	line-height: 25px;
+	font-size: 25px;
+	line-height: 29px;
 	color: #000000;
 	word-wrap: break-word;
 	align-items: center;
 	margin-top: 40px;
 }
 
-.first-column {
-	width: calc(100% - 45px);
-	margin-left: 0; 
-	margin-top: 0;
-	margin-bottom: 0;
-	
-}
-
-.second-column {
-	width: calc(100% - 45px);
-	margin-right: 0;
-	margin-top: 0;
-	margin-bottom: 0;
-}
-
 .paragraph-text {
+	width: calc(100% - 45px);
+	height: calc((100vw - 45px)/2);
+	display: flex;
+	align-items: center;
 	text-align: center;
 	border: 5px solid #000000;
 	box-sizing: border-box;
 	padding: 30px;
-	margin-bottom: 40px; 
+	 
 }
 
 .footer-container {
@@ -83,26 +70,53 @@
 }
 
 @media screen and (min-width: 668px) {
+
 	.main-content {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
+		font-size: 0;
 		margin-top: 102px;
 		margin-bottom: 102px;
 	}
 
-	.first-column {
-		width: calc((100% - 240px)/2);
-		margin-left: 110px; 
+	.text1 {
+		display: inline-block;
+		vertical-align: top;
+		width: calc((100vw - 240px)/2);
+		height: calc(((100vw - 240px)/2)/2);
+		margin-left: 110px;
+		margin-bottom: 20px;
+		margin-right: 20px; 
 	}
 
-	.second-column {
-		width: calc((100% - 240px)/2);
-		margin-right: 110px;
+	.text2 {
+		display: inline-block;
+		vertical-align: top;
+		width: calc((100vw - 240px)/2);
+		height: calc(((100vw - 240px)/2)/2);
+		margin-bottom: 20px;  
+	}
+
+	.text3 {
+		display: inline-block;
+		vertical-align: bottom;
+		width: calc((100vw - 240px)/2);
+		height: calc(((100vw - 240px)/2)/2);
+		margin-left: 110px;
+		margin-right: 20px;
+	}
+
+	.text4 {
+		display: inline-block;
+		vertical-align: bottom;
+		width: calc((100vw - 240px)/2);
+		height: calc(((100vw - 240px)/2)/2);
+		
 	}
 
 	.paragraph-text {
-		margin-bottom: 20px; 
+		width: calc((100vw - 240px)/2);
+		height: calc(((100vw - 240px)/2)/2);
+		font-size: 50px;
+		line-height: 57px;
 	}
 }
 
