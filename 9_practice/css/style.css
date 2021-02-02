@@ -25,23 +25,24 @@
 	font-size: 25px;
 	line-height: 29px;
 	color: #000000;
-	word-wrap: break-word;
 	align-items: center;
-	margin-top: 40px;
 }
 
 .paragraph-text {
-	width: calc(100% - 45px);
+	width: calc(100vw - 45px);
 	height: calc((100vw - 45px)/2);
 	display: flex;
 	align-items: center;
 	text-align: center;
 	border: 5px solid #000000;
 	box-sizing: border-box;
-	padding: 30px;
-	margin-bottom: 21px;
-	margin-top: 21px;
-	margin-left: 23px;
+	
+}
+
+.text1, .text2, .text3, .text4 {
+	padding-bottom: 21px;
+	padding-top: 21px;
+	padding-left: 23px;
 }
 
 .footer-container {
