@@ -83,35 +83,61 @@
 	.text1 {
 		display: inline-block;
 		vertical-align: top;
-		width: calc((100vw - 240px)/2);
-		height: calc(((100vw - 240px)/2)/2);
-		margin-bottom: 20px;
+		box-sizing: border-box;
+		border: 5px solid #000000;
+		box-sizing: border-box;
+		width: calc((100% - 240px)/2);
+		height: calc(((100% - 240px)/2)/2);
+		padding-top: 0;
+		padding-bottom: 0;
+		padding-left: 0;
+		margin-left: 110px;
 		margin-right: 20px;
-		margin-left: 110px; 
+		margin-bottom: 20px;
 	}
 
 	.text2 {
 		display: inline-block;
 		vertical-align: top;
-		width: calc((100vw - 240px)/2);
-		height: calc(((100vw - 240px)/2)/2);
+		box-sizing: border-box;
+		border: 5px solid #000000;
+		box-sizing: border-box;
+		width: calc((100% - 240px)/2);
+		height: calc(((100% - 240px)/2)/2);
+		padding-top: 0;
+		padding-bottom: 0;
+		padding-left: 0;
+		margin-right: 110px;
 		margin-bottom: 20px;
 	}
 
 	.text3 {
 		display: inline-block;
 		vertical-align: bottom;
-		width: calc((100vw - 240px)/2);
-		height: calc(((100vw - 240px)/2)/2);
-		margin-right: 20px;
+		box-sizing: border-box;
+		border: 5px solid #000000;
+		box-sizing: border-box;
+		width: calc((100% - 240px)/2);
+		height: calc(((100% - 240px)/2)/2);
+		padding-top: 0;
+		padding-bottom: 0;
+		padding-left: 0;
 		margin-left: 110px;
+		margin-right: 20px;
 	}
 
 	.text4 {
 		display: inline-block;
 		vertical-align: bottom;
-		width: calc((100vw - 240px)/2);
-		height: calc(((100vw - 240px)/2)/2);
+		box-sizing: border-box;
+		border: 5px solid #000000;
+		box-sizing: border-box;
+		width: calc((100% - 240px)/2);
+		height: calc(((100% - 240px)/2)/2);
+		padding-top: 0;
+		padding-bottom: 0;
+		padding-left: 0;
+		margin-right: 110px;
 	}
 
 	.paragraph-text {
@@ -119,6 +145,7 @@
 		height: calc(((100vw - 240px)/2)/2);
 		font-size: 50px;
 		line-height: 57px;
+		border:none;
 	}
 }
 
