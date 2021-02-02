@@ -39,7 +39,9 @@
 	border: 5px solid #000000;
 	box-sizing: border-box;
 	padding: 30px;
-	 
+	margin-bottom: 21px;
+	margin-top: 21px;
+	margin-left: 23px;
 }
 
 .footer-container {
@@ -82,9 +84,9 @@
 		vertical-align: top;
 		width: calc((100vw - 240px)/2);
 		height: calc(((100vw - 240px)/2)/2);
-		margin-left: 110px;
 		margin-bottom: 20px;
-		margin-right: 20px; 
+		margin-right: 20px;
+		margin-left: 110px; 
 	}
 
 	.text2 {
@@ -92,7 +94,7 @@
 		vertical-align: top;
 		width: calc((100vw - 240px)/2);
 		height: calc(((100vw - 240px)/2)/2);
-		margin-bottom: 20px;  
+		margin-bottom: 20px;
 	}
 
 	.text3 {
@@ -100,8 +102,8 @@
 		vertical-align: bottom;
 		width: calc((100vw - 240px)/2);
 		height: calc(((100vw - 240px)/2)/2);
-		margin-left: 110px;
 		margin-right: 20px;
+		margin-left: 110px;
 	}
 
 	.text4 {
@@ -109,7 +111,6 @@
 		vertical-align: bottom;
 		width: calc((100vw - 240px)/2);
 		height: calc(((100vw - 240px)/2)/2);
-		
 	}
 
 	.paragraph-text {
