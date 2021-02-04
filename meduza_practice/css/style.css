@@ -289,7 +289,7 @@ time {
 
 .footer-content {
 	display: grid;
-	grid-template-columns: 92.5px 146.75px 122.75px 158.75px 205.5px;
+	grid-template-columns: repeat(5, minmax(min-content, max-content))/*92.5px 146.75px 122.75px 158.75px 205.5px*/;
 	grid-template-rows: auto;
 	column-gap: 205px;
 }
