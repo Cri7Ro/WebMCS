@@ -245,7 +245,6 @@ time {
 }
 
 .new.first, .new.third {
-
 	padding-right: 50px;
 }
 
@@ -433,6 +432,7 @@ time {
 		padding-left: 10px;
 		padding-right: 10px;
 		word-wrap: break-word;
+		column-gap: 10px;
 	}
 
 	.main-new {
@@ -450,6 +450,10 @@ time {
 
 	.new time {
 		margin-top: 15px;
+	}
+
+	.new.first, .new.third {
+		padding-right: 0;
 	}
 
 	.footer-container {
