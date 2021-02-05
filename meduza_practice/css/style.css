@@ -389,7 +389,7 @@ time {
 	display: inline-block;	
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 	.header-container {
 		padding: 20px 6px 12px 6px;
 		align-items: flex-end;
@@ -427,9 +427,12 @@ time {
 	}
 
 	.news {
-		grid-template-columns: 2fr 2fr;
+		grid-template-columns: 50% 50%;
 		margin-left: 0;
 		margin-right: 0;
+		padding-left: 10px;
+		padding-right: 10px;
+		word-wrap: break-word;
 	}
 
 	.main-new {
